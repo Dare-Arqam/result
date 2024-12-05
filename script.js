@@ -1,6 +1,6 @@
 function loadPDF() {
     let pdfName = document.getElementById('pdfName').value;
-    let pdfPassword = document.getElementById('pdfPassword').value;
+    let pdfPassword = document.getElementById('pdfPassword');
     let pdfViewer = document.getElementById('pdfViewer');
 
     if (pdfName == 'undefined' || pdfName == null || pdfName == "") {
