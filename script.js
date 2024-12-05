@@ -16,7 +16,7 @@ function loadPDF() {
         if (pdfName.lastIndexOf(".") != -1) {
             pdfName = pdfName.substring(0, pdfName.lastIndexOf("."));
         }
-        viewPDFOnPage(pdfName.toUpperCase(), pdfPassword);
+        downloadPDF(pdfName.toUpperCase(), pdfPassword);
     }
 }
 
