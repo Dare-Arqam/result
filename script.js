@@ -8,7 +8,7 @@ function loadPDF() {
     }
 
     if (pdfPassword == 'undefined' || pdfPassword == null || pdfPassword == "") {
-        alert('Please enter PDF password');
+      //  alert('Please enter PDF password');
     }
     // PDF.js logic to display the PDF
     //const loadingTask = pdfjsLib.getDocument({ url: `path/to/pdfs/${pdfName}.pdf`, password: pdfPassword });
